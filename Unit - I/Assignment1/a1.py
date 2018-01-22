@@ -87,7 +87,7 @@ def main():
 
         annualized_excess_return = ((1 + (jensens_alpha/100)) ** 12) - 1
         print('Annualized Excess Return: %s %%' % str(annualized_excess_return * 100))
-
+        return 0
     except BaseException as e:
         # Casting a wide net to catch all exceptions
         print('\n%s' % str(e))
