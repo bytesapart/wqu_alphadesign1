@@ -1,0 +1,6 @@
+scipy==0.19.1
+fix_yahoo_finance==0.0.19
+matplotlib==2.0.2
+numpy==1.13.1
+pandas_datareader==0.5.0
+scikit_learn==0.19.1
